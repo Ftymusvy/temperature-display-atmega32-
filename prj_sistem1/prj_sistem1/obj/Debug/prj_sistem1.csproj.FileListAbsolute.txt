@@ -1,0 +1,10 @@
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\bin\Debug\prj_sistem1.exe.config
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\bin\Debug\prj_sistem1.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\bin\Debug\prj_sistem1.pdb
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.Form1.resources
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.Form2.resources
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\prj_sistem1\prj_sistem1\obj\Debug\prj_sistem1.pdb

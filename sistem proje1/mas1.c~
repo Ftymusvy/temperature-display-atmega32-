@@ -1,0 +1,47 @@
+#include <io.h>
+#include <mega32.h>
+#include <delay.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+
+
+void adc_configuration(){
+ ADMUX |= (1<<REFS1)|(1<<REFS0);  
+ ADCSRA |= (1<<ADPS2)|(1<<ADPS1)|(1<<ADEN);
+}
+
+
+
+unsigned int temp(){ 
+ADCSRA |=(1<<ADSC); 
+while ((ADCSRA & (1<<ADIF))==0); 
+ADCSRA |=(1<<ADIF);
+return ADCW;
+}
+
+
+
+void main(void)
+{
+char str[10];
+float T;
+DDRA = 0x00 ;
+PORTA = 0x00 ;
+UCSRB = 1 <<TXEN;
+UCSRC = 0b10000110;
+UBRRL= 71;
+
+while (1)
+    {
+    adc_configuration();                   
+    T = temp();          
+    T=(T*256)/1023; 
+    ftoa(T,1,str); 
+    puts(str);  
+    delay_ms(500);
+    
+
+    }
+}
